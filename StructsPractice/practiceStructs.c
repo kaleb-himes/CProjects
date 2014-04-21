@@ -99,7 +99,7 @@ char verify(char c){
              confirming == 'n'){
         printf("Woops, my mistake.\n");
         //try again if user mistakenly put in wrong data
-        getInput();
+        main();
     }else{
         printf("-> Wrong format, try again! <-\n");
         //start over
