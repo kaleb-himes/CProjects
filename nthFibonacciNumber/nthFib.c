@@ -28,26 +28,31 @@ void main(void)
 
 int runFib(int a){
     //Variable Declaration
-    int b,c;
-    unsigned long long f;
+    unsigned long long b,c,f;
+
     b = 0;
     c = 0;
     f = 0;
+
     //base case 1
     if(a < 0){
         printf("n cannot be less than zero.");
         getInput();
     }
+
     //base case 2
     if(a == 0){
         printf("Result: %d\n\n", 0);
-        getInput();
+        main();
     }
+
     //base case 3
     if(a == 1 | a == 2){
         printf("Result: %d\n\n", 1);
-        again();
+        main();
     }
+
+    //the algorithm
     b = 1, c = 1;
     while(a > 2){
         f = b + c;
@@ -55,6 +60,8 @@ int runFib(int a){
         c = f;
         a--;
     }
+
+    //Result
     printf("Result: %lld\n\n", f);
     //loop
     again();
