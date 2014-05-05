@@ -1,7 +1,0 @@
-Following is some material I will be reading over the next week in preparation
-for summer internship 2014, and potential full time job upon graduation if I am
-a good fit for the position.
-
-"DEVELOPING EMBEDDED SOFTWARE IN C USING ICC11/ICC12/METROWERKS"
-
-http://users.ece.utexas.edu/~valvano/embed/toc1.htm
