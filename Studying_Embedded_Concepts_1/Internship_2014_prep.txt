@@ -11,3 +11,7 @@ term in the above document. Most of this I already understood but some of it was
 new information and very enlightening to me.
 
 http://www.digicert.com/ssl.htm
+
+ABOUT HANDSHAKES ON STACKOVERFLOW.COM
+
+http://stackoverflow.com/questions/23493338/what-is-the-correct-way-to-create-succesfull-ssl-handshake-in-qt
